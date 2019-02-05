@@ -1,0 +1,166 @@
+/* This .css document was written by Mary McCauley. All credit goes to her, and her teacher */
+body {
+font-family: "Tahoma", Arial, sans-serif;
+ background-image: url("https://newevolutiondesigns.com/images/freebies/city-wallpaper-11.jpg");
+   background-repeat: no-repeat, repeat;
+   background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+
+        }
+	/* css for header element */
+header { 
+text-align:center;
+color:white;
+background-color: #f44e42;
+margin-left:60px;
+margin-right:60px;
+font-family:"new-times-roman";
+font-size:1.5em; 
+border-radius: 10px;
+}
+/*css for navigation*/
+nav {
+	margin: 30px;
+color:white;
+text-align:center;
+}
+ /* css for main content/background*/
+.box {
+margin: auto;
+margin-right:50px;
+margin-left:20px;
+padding: 5px;
+background-color: rgba(35, 35, 35, .8);
+padding-left: 10px;
+color:white;
+border-radius:10px;
+
+overflow:auto;
+                    }
+					
+
+/* css for unordered list/navigation */					
+ul { text-align:center;
+font-size:0.8em;
+list-style-position: inside;
+
+}
+							
+							
+ footer { 
+font-size:0.75 em;
+margin: 30px;
+color: #f44e42;
+clear:both;
+
+}
+
+/* css for top image*/
+#avatar { 
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+border-radius: 80%;
+border: 3px solid white;
+height: 150px;
+width: auto;
+display:block;
+text-align:center;
+
+	}
+
+	
+	/*css for buttons in navigation*/
+.button {
+ background-color: #f44e42;
+ border: none;
+ color: white;
+ text-align: center;
+ font-size: 16px;
+ padding: 10px;
+  border-radius: 10px;
+ margin-left:25px;
+  margin-right:25px;
+	}
+	
+/* psuedo-classes for the button links in naviation */	
+a{text-decoration:none}		
+
+											
+a:hover {
+ background-color: #f9b3ae;
+ color: #7a1d17;
+ padding: 10px;
+ border-radius: 10px;
+	}
+	
+	/*STARTING CSS FOR INDEX.HTML*/
+	
+.container {
+  background-color: #f44e42;
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 0 5px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+
+.card {
+	width: 28%;
+	float: left;
+	text-align: center;
+	padding: 10px 0;
+	border: 2px solid white;
+	margin: 0 2.5%;
+    border-radius: 10px;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+}
+	
+	/*STARTING CSS FOR CONTACT.HTML */
+	/* centering contact forum */
+#contact {
+	text-align:center;
+													}
+													
+		/* css for submit buttons on contact page below */																
+.submit		{
+	 background-color: #f44e42;
+ border: none;
+ color: white;
+ text-align: center;
+ font-size: 12px;
+ padding: 8px;
+  border-radius: 10px;
+ margin-left:25px;
+  margin-right:25px;
+}		
+						
+input{text-decoration:none}		
+
+/* css for input */											
+input:hover {
+ background-color: #f9b3ae;
+ color: #7a1d17;
+ padding: 10px;
+ border-radius: 10px;
+	}
+	
+/* centering placeholder text for forum entries. They should make it simpler because this is dumb */
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
